@@ -24,5 +24,10 @@ $.animateGradient(".jQuerySelector", [r, g, b], [r, g, b], 2000, function () {})
 $.animateGradient(".jQuerySelector", [r, g, b], [r, g, b], function () {});
 ```
 
+## Changelog
+
+### `v0.1.0`
+ - Initial release
+
 ## License
 See the [LICENSE](./LICENSE) file.
