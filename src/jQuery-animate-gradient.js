@@ -6,7 +6,7 @@
  *
  *  Documentation
  *  =============
- *  Animates a gradient providing the following parameter:
+ *  Animates a gradient providing the following parameters:
  *   - jQueryElement: jQuery selector / jQuery object
  *   - top:           an array of values for rgb();
  *   - bottom:        an array of values for rgb();
