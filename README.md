@@ -15,9 +15,11 @@ Animates a gradient.
 
 **Usage:**
 
- 1. $.animateGradient(".jQuerySelector", [0, 0, 0], [0, 0, 0], 2000, 100, function () {});
- 2. $.animateGradient(".jQuerySelector", [0, 0, 0], [0, 0, 0], 2000, function () {});
- 3. $.animateGradient(".jQuerySelector", [0, 0, 0], [0, 0, 0], function () {});
+```js
+$.animateGradient(".jQuerySelector", [0, 0, 0], [0, 0, 0], 2000, 100, function () {});
+$.animateGradient(".jQuerySelector", [0, 0, 0], [0, 0, 0], 2000, function () {});
+$.animateGradient(".jQuerySelector", [0, 0, 0], [0, 0, 0], function () {});
+```
 
 #### Params
 - **jQuery|String** `jQueryElement`: The jQuery element or selector.
