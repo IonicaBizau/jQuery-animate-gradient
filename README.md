@@ -1,33 +1,47 @@
-jQuery-animate-gradient
-=======================
+# jquery-animate-gradient [![Support this project][donate-now]][paypal-donations]
 
-A small jQuery library designed for one thing: animate gradients
+Animate gradient colors.
 
-## How to use
-Animates a background gradient providing the following parameters:
+## Installation
 
- - `jQueryElement`: jQuery selector / jQuery object
- - `top`: an array of values for rgb();
- - `bottom`: an array of values for rgb();
- - `duration` (default: 1000ms): the duration of animation in miliseconds (default: 1000)
- - `delay` (default: 100ms): delay of interval (default: 100);
- - `callback`: the function that will be called after animation is done
-
-## Examples
-
-```js
-// provide duration and delay
-$.animateGradient(".jQuerySelector", [r, g, b], [r, g, b], 2000, 100, function () {});
-// provide duration only
-$.animateGradient(".jQuerySelector", [r, g, b], [r, g, b], 2000, function () {});
-// don't provide duration
-$.animateGradient(".jQuerySelector", [r, g, b], [r, g, b], function () {});
+```sh
+$ npm i jquery-animate-gradient
 ```
 
-## Changelog
+## Documentation
 
-### `v0.1.0`
- - Initial release
+### `animateGradient(jQueryElement, top, bottom, {}, {}, callback)`
+Animates a gradient.
+
+**Usage:**
+
+ 1. $.animateGradient(".jQuerySelector", [0, 0, 0], [0, 0, 0], 2000, 100, function () {});
+ 2. $.animateGradient(".jQuerySelector", [0, 0, 0], [0, 0, 0], 2000, function () {});
+ 3. $.animateGradient(".jQuerySelector", [0, 0, 0], [0, 0, 0], function () {});
+
+#### Params
+- **jQuery|String** `jQueryElement`: The jQuery element or selector.
+- **Array** `top`: An array of values interpreted by `rgb()` and representing the top color.
+- **Array** `bottom`: An array of values interpreted by `rgb()` and representing the bottom color.
+- **** `{}`: duration The duration of animation in miliseconds (default: `1000`).
+- **** `{}`: delay Delay of interval (default: `100`).
+- **Function** `callback`: The callback function.
+
+## How to contribute
+Have an idea? Found a bug? See [how to contribute][contributing].
+
+## Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
 
 ## License
-See the [LICENSE](./LICENSE) file.
+
+[KINDLY][license] © [Ionică Bizău][website]
+
+[license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2014
+
+[website]: http://ionicabizau.net
+[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
+[donate-now]: http://i.imgur.com/6cMbHOC.png
+
+[contributing]: /CONTRIBUTING.md
+[docs]: /DOCUMENTATION.md
