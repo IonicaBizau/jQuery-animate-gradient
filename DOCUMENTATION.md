@@ -14,6 +14,7 @@ $.animateGradient(".jQuerySelector", [0, 0, 0], [0, 0, 0], function () {});
 ```
 
 #### Params
+
 - **jQuery|String** `jQueryElement`: The jQuery element or selector.
 - **Array** `top`: An array of values interpreted by `rgb()` and representing the top color.
 - **Array** `bottom`: An array of values interpreted by `rgb()` and representing the bottom color.
