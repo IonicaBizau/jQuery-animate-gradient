@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save jquery-animate-gradient
+# Using npm
+npm install --save jquery-animate-gradient
+
+# Using yarn
+yarn add jquery-animate-gradient
 ```
 
 
